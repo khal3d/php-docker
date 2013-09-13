@@ -1,0 +1,22 @@
+{
+    "name": "khal3d/php-docker",
+    "description": "PHP client for Docker.io",
+    "keywords": ["Docker","Docker.io"],
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzle/guzzle": "~3.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khaled Attia",
+            "email": "khaledattia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPDocker": "src/"
+        }
+    }
+}
